@@ -1,4 +1,4 @@
-package graph
+package service
 
 // This file will be automatically regenerated based on the schema, any resolver implementations
 // will be copied through when generating and any unknown code will be moved to the end.
@@ -7,8 +7,8 @@ package graph
 import (
 	"context"
 
-	"github.com/rnikrozoft/go-graphql/graph/handler"
-	"github.com/rnikrozoft/go-graphql/graph/model"
+	"github.com/rnikrozoft/go-graphql/handler"
+	"github.com/rnikrozoft/go-graphql/model"
 )
 
 // CreatePlayer is the resolver for the createPlayer field.
