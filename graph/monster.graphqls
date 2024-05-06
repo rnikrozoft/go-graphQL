@@ -1,0 +1,13 @@
+type Monster {
+ id: ID!
+ name: String!
+ level: Int!
+ class: MonsterClass
+ items: [Item!]!
+}
+
+enum MonsterClass {
+  WARRIOR
+  MAGE
+  ASSASSIN
+}
