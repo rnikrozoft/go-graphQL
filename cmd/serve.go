@@ -8,7 +8,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/labstack/echo/v4"
-	"github.com/rnikrozoft/go-graphql/graph"
+	"github.com/rnikrozoft/go-graphql/service"
 	"github.com/spf13/cobra"
 )
 
@@ -49,9 +49,9 @@ func serve() {
 	})
 
 	queryHandler := handler.NewDefaultServer(
-		graph.NewExecutableSchema(
-			graph.Config{
-				Resolvers: &graph.Resolver{},
+		service.NewExecutableSchema(
+			service.Config{
+				Resolvers: &service.Resolver{},
 			},
 		),
 	)

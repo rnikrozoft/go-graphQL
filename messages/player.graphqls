@@ -17,16 +17,7 @@ type Item {
   name: String!
 }
 
-type Query {
-  getPlayers: [Player!]!
-  getMonster: [Monster!]!
-}
-
 input NewPlayer {
   name: String!
   class: PlayerClass
-}
-
-type Mutation {
-  createPlayer(req: NewPlayer!): Player!
 }

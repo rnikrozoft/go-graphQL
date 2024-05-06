@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/google/uuid"
-	"github.com/rnikrozoft/go-graphql/graph/model"
+	"github.com/rnikrozoft/go-graphql/model"
 	"github.com/samber/lo"
 )
 

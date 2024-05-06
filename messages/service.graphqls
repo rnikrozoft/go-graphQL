@@ -1,0 +1,9 @@
+
+type Mutation {
+  createPlayer(req: NewPlayer!): Player!
+}
+
+type Query {
+  getPlayers: [Player!]!
+  getMonster: [Monster!]!
+}

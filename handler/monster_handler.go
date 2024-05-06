@@ -1,6 +1,6 @@
 package handler
 
-import "github.com/rnikrozoft/go-graphql/graph/model"
+import "github.com/rnikrozoft/go-graphql/model"
 
 var monsters = []*model.Monster{
 	{
